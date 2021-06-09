@@ -1,0 +1,79 @@
+#+TITLE: Commentarii de bello Gallico
+#+OPTIONS: toc:nil
+
+#+AUTHOR: John Gargalionis
+#+AUTHOR: and Gaius Iulius Caesar
+
+#+LATEX_HEADER: \usepackage{jheppub}
+#+LATEX_HEADER: \affiliation{ARC Centre of Excellence for Dark Matter Particle Physics,\\ School of Physics, The University of Melbourne, Victoria 3010, Australia}
+#+LATEX_HEADER: \emailAdd{garj@student.unimelb.edu.au}
+#+LATEX_HEADER: \emailAdd{caesar@unimelb.edu.au}
+
+#+LATEX_HEADER: \abstract{Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit.}
+
+
+# Document ######################################################################
+
+* Introduction
+label:sec:introduction
+
+His rebus adducti et auctoritate Orgetorigis permoti constituerunt ea quae ad
+proficiscendum pertinerent comparare\nbsp{}cite:Gargalionis:2020xvt, iumentorum
+et carrorum quam maximum numerum coemere, sementes quam maximas facere, ut in
+itinere copia frumenti suppeteret, cum proximis civitatibus pacem et amicitiam
+confirmare. Ad eas res conficiendas biennium sibi satis esse duxerunt; in
+tertium annum profectionem lege confirmant. Ad eas res conficiendas Orgetorix
+deligitur. Is sibi legationem ad civitates suscipit. In eo itinere persuadet
+Castico, Catamantaloedis filio, Sequano, cuius pater regnum in Sequanis multos
+annos obtinuerat et a senatu populi Romani amicus appellatus erat, ut regnum in
+civitate sua occuparet, quod pater ante habuerit; itemque Dumnorigi Haeduo,
+fratri Diviciaci, qui eo tempore principatum in civitate obtinebat ac maxime
+plebi acceptus erat, ut idem conaretur persuadet eique filiam suam in
+matrimonium dat. Perfacile factu esse illis probat conata perficere, propterea
+quod ipse suae civitatis imperium obtenturus esset: non esse dubium quin totius
+Galliae plurimum Helvetii possent; se suis copiis suoque exercitu illis regna
+conciliaturum confirmat. Hac oratione adducti inter se fidem et ius iurandum
+dant et regno occupato per tres potentissimos ac firmissimos populos totius
+Galliae sese potiri posse sperant.
+
+* This is a section
+label:sec:my-section
+
+Ea res est Helvetiis per indicium enuntiata. Moribus suis Orgetoricem ex
+vinculis causam dicere coegerunt; damnatum poenam sequi oportebat, ut igni
+cremaretur. Die constituta causae dictionis Orgetorix ad iudicium omnem suam
+familiam, ad hominum milia decem, undique coegit, et omnes clientes obaeratosque
+suos, quorum magnum numerum habebat, eodem conduxit; per eos ne causam diceret
+se eripuit. Cum civitas ob eam rem incitata armis ius suum exequi conaretur
+multitudinemque hominum ex agris magistratus cogerent, Orgetorix mortuus est;
+neque abest suspicio, ut Helvetii arbitrantur, quin ipse sibi mortem
+consciverit.
+
+* Conclusions
+label:sec:conclusions
+
+Post eius mortem nihilo minus Helvetii id quod constituerant facere conantur, ut
+e finibus suis exeant. Ubi iam se ad eam rem paratos esse arbitrati sunt, oppida
+sua omnia, numero ad duodecim, vicos ad quadringentos, reliqua privata aedificia
+incendunt; frumentum omne, praeter quod secum portaturi erant, comburunt, ut
+domum reditionis spe sublata paratiores ad omnia pericula subeunda essent; trium
+mensum molita cibaria sibi quemque domo efferre iubent. Persuadent Rauracis et
+Tulingis et Latobrigis finitimis, uti eodem usi consilio oppidis suis vicisque
+exustis una cum iis proficiscantur, Boiosque, qui trans Rhenum incoluerant et in
+agrum Noricum transierant Noreiamque oppugnabant, receptos ad se socios sibi
+adsciscunt.
+
+\acknowledgments
+Gratias agimus alicui.
+
+\appendix
+
+* Appendicem habemus
+
+In qua debemus scribere aliquid.
+
+
+# References ####################################################################
+
+[[bibliographystyle:JHEP]]
+[[bibliography:main.bib]]

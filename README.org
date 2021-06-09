@@ -1,0 +1,5 @@
+#+TITLE: Org JHEP Template
+
+This is a simple template for a JHEP paper based on emacs' =org-mode= and some
+peripheral packages. Use the function =org-latex-export-to-latex= to export
+=main.tex= and compile the latex with =make=.

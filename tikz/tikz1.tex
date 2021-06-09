@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{tikz-feynman}
+
+\begin{document}
+\feynmandiagram[horizontal=a to b] {
+  i1 [particle=$\psi_{1}$]  -- [plain] a -- [scalar] i2 [particle=$H$],
+  a -- [plain, very thick, edge label=$\chi$] c -- [scalar, very thick, edge label=$\phi$] b,
+  c -- [plain] d [particle=$\psi_2$],
+  f1 [particle=$\psi_{4}$] -- [plain] b -- [plain] f2 [particle=$\psi_{3}$],
+};
+
+\end{document}

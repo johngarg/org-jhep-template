@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Use custom labels in org file
+sed '/label{sec:org/d' main.tex > proc.tex
+
+# org's hyperref conflicts with JHEP's
+sed '/usepackage{hyperref/d' main.tex > proc.tex
+
+# Show a diff to make sure nothing went wrong
+diff main.tex proc.tex
+
+# Clean up
+mv proc.tex main.tex
+rm -f proc.tex
