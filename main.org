@@ -23,7 +23,13 @@ et carrorum quam maximum numerum coemere, sementes quam maximas facere, ut in
 itinere copia frumenti suppeteret, cum proximis civitatibus pacem et amicitiam
 confirmare. Ad eas res conficiendas biennium sibi satis esse duxerunt; in
 tertium annum profectionem lege confirmant. Ad eas res conficiendas Orgetorix
-deligitur. Is sibi legationem ad civitates suscipit. In eo itinere persuadet
+deligitur.
+
+\begin{equation}
+  \mathcal{L} = -\frac{1}{4} F_{\mu\nu} F^{\mu\nu} \ .
+\end{equation}
+
+Is sibi legationem ad civitates suscipit. In eo itinere persuadet
 Castico, Catamantaloedis filio, Sequano, cuius pater regnum in Sequanis multos
 annos obtinuerat et a senatu populi Romani amicus appellatus erat, ut regnum in
 civitate sua occuparet, quod pater ante habuerit; itemque Dumnorigi Haeduo,
@@ -35,6 +41,11 @@ Galliae plurimum Helvetii possent; se suis copiis suoque exercitu illis regna
 conciliaturum confirmat. Hac oratione adducti inter se fidem et ius iurandum
 dant et regno occupato per tres potentissimos ac firmissimos populos totius
 Galliae sese potiri posse sperant.
+
+\begin{equation}
+  [X_a, X_b] = i \epsilon_{abc} X_c \ .
+\end{equation}
+
 
 * This is a section
 label:sec:my-section

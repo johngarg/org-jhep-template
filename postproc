@@ -1,10 +1,20 @@
 #!/bin/bash
 
-# Use custom labels in org file
-sed '/label{sec:org/d' main.tex > proc.tex
+# Copy file for comparison later
+cp main.tex proc.tex
 
-# org's hyperref conflicts with JHEP's
-sed '/usepackage{hyperref/d' main.tex > proc.tex
+# Processing
+#  (1) Use custom labels from org
+#  (2) Remove hyperref (already in JHEP)
+#  (3) I like to keep space around equations in org-preview. Remove that here.
+cat main.tex | vims -e         \
+    'label{sec:org' 'dd'       \
+    'usepackage{hyperref' 'dd' \
+    'begin{equation}' 'kdd'    \
+    'end{equation}' 'jdd'      \
+    'begin{align}' 'kdd'       \
+    'end{align}' 'jdd'         \
+    > proc.tex
 
 # Show a diff to make sure nothing went wrong
 diff main.tex proc.tex
