@@ -1,24 +1,22 @@
 #!/bin/bash
 
-# Copy file for comparison later
-cp main.tex proc.tex
-
 # Processing
-#  (1) Use custom labels from org
-#  (2) Remove hyperref (already in JHEP)
-#  (3) I like to keep space around equations in org-preview. Remove that here.
-cat main.tex | vims -e         \
-    'label{sec:org' 'dd'       \
-    'usepackage{hyperref' 'dd' \
-    'begin{equation}' 'kdd'    \
-    'end{equation}' 'jdd'      \
-    'begin{align}' 'kdd'       \
-    'end{align}' 'jdd'         \
-    > proc.tex
+#   (1) Use custom labels from org
+#   (2) Remove hyperref (already in JHEP)
+cat main.tex  | vims -e 'label{sec:org' 'dd' 'usepackage{hyperref' 'dd' > proc1.tex
+
+#   (3) I like to keep space around equations in org-preview. Remove that here.
+cat proc1.tex | vims -e 'begin{equation}'   'kdd' 'end{equation}'   'jdd' > proc2.tex
+cat proc2.tex | vims -e 'begin{align}'      'kdd' 'end{align}'      'jdd' > proc3.tex
+cat proc3.tex | vims -e 'begin{align\*}'    'kdd' 'end{align\*}'    'jdd' > proc4.tex
+cat proc4.tex | vims -e 'begin{equation\*}' 'kdd' 'end{equation\*}' 'jdd' > proc5.tex
+
+#   (4) Using ~ in org for non-breaking space, need to fix in export
+sed -i '' 's/\\\textasciitilde{}/~/g'  proc5.tex
 
 # Show a diff to make sure nothing went wrong
-diff main.tex proc.tex
+diff main.tex proc5.tex
 
 # Clean up
-mv proc.tex main.tex
-rm -f proc.tex
+mv proc5.tex main.tex
+rm -f proc*.tex

@@ -9,8 +9,8 @@ RM = rm -f *.nav *.snm *.fls *.log *.fdb_latexmk *.aux *.synctex.gz *.vrb *.bbl 
 all: $(PROJNAME).pdf
 
 $(PROJNAME).pdf: $(PROJNAME).tex
-	make images
 	./postproc
+	make images
 	$(COMPILER) $(PROJNAME).tex
 
 images:

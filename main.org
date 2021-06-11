@@ -26,6 +26,7 @@ tertium annum profectionem lege confirmant. Ad eas res conficiendas Orgetorix
 deligitur.
 
 \begin{equation}
+  \label{eq:maxwell}
   \mathcal{L} = -\frac{1}{4} F_{\mu\nu} F^{\mu\nu} \ .
 \end{equation}
 
@@ -42,9 +43,9 @@ conciliaturum confirmat. Hac oratione adducti inter se fidem et ius iurandum
 dant et regno occupato per tres potentissimos ac firmissimos populos totius
 Galliae sese potiri posse sperant.
 
-\begin{equation}
+\begin{equation*}
   [X_a, X_b] = i \epsilon_{abc} X_c \ .
-\end{equation}
+\end{equation*}
 
 
 * This is a section
